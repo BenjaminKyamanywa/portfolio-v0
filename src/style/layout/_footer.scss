@@ -58,6 +58,28 @@
   }
 }
 
+.about-me-social {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+
+  a {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    color: $white-color;
+    font-size: 3rem;
+    width: 4rem;
+    height: 4rem;
+    margin: $default-font-size $default-font-size;
+    transition: all 0.2s ease-in;
+
+    &:hover {
+      transform: translateY(-2px);
+    }
+  }
+}
+
 .back-to-top i {
   color: $white-color;
   margin: 1rem 0 $default-font-size;
